@@ -95,6 +95,7 @@ void get_current_pressure(){
     // At 25,000 kPa there should be 20mA.  20mA @ 250 Ohm = 5V
     // 
     pressure = ((a_0 - 205.0) / (1023.0-205.0)) * 25000;
+}
 
 
 
